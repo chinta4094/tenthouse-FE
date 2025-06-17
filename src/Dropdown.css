@@ -1,0 +1,73 @@
+.select-box {
+    width: 330px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    color: black;
+}
+
+.select-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.top-select {
+    width: 250px;
+    border: 2px solid black;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.name-select, .child-list  {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 2px solid black; */
+    width: 150px;
+    margin: 3px 20px;
+}
+
+.arrow-select, .tick-symbol {
+    float: right;
+    width: 25px;
+    height: 25px;
+    /* border: 2px solid black; */
+    margin-right: 10px;
+}
+
+.child-select {
+    width: 250px;
+    max-height: 300px;
+    overflow: hidden;
+    border: 2px solid black;
+    margin: 1px;
+}
+
+.tick-symbol {
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+}
+
+.dash-footer {
+    height: 80px;
+    overflow: hidden;
+    border: 2px solid black;
+    float: left;
+    margin-right: 40px;
+}
+
+.dash-submit {
+    padding: 15px 30px;
+    width: 70px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(31, 65, 45);
+    margin-left: 210px;
+}

@@ -1,0 +1,23 @@
+.theme-white {
+    float: right;
+    border: 2px solid #2a2626;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 3px 12px;
+    box-shadow: 1px 1px 2px 0 #464444;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.theme-black {
+    float: right;
+    border: 2px solid #f0f2f5;
+    margin-right: 80px;
+    margin-top: 10px;
+    padding: 3px 12px;
+    box-shadow: 1px 1px 2px 0 #f0f2f5;
+    background-color: #2a2626;
+    border-radius: 15px;
+}
