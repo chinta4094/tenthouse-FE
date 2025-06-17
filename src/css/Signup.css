@@ -1,0 +1,192 @@
+.si-body {
+  padding: 10px;
+  float: left;
+  color: #000;
+}
+
+.si-logo {
+  margin-top: 50px;
+  margin-left: 40px;
+  float: left;
+}
+
+.si-photo {
+  width: 700px;
+  height: 350px;
+}
+
+.si-form {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #2a2626;
+  background-color: white;
+  margin-top: 40px;
+}
+
+.si-heading {
+    border-bottom: 2px solid black; 
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 450px;
+    padding-left: 50px;   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.si-fields {
+  margin-bottom: 20px;
+  height: 100%;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  padding-left: 50px;
+  margin-left: 250px;
+}
+
+.si-fields-set {
+  width: 400px;
+  overflow: hidden;
+  height: 90px;
+  float: left;
+}
+
+.si-label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 7px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.si-input {
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  width: 370px;
+  display: flex;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+.si-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.si-exceptions {
+
+     
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.si-new-user,
+.si-forgot-password {
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.si-new-user-text,
+.si-forgot-password-text {
+  font-size: 10px;
+  font-weight: bold;
+  color: #2a2626;
+}
+
+.si-new-user-text:hover,
+.si-forgot-password-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.si-footer {
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.si-submit {
+  padding: 12px 25px;
+  background-color: rgb(31, 65, 45);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 20px;
+  transition: background-color 0.3s;
+}
+
+.si-submit:hover {
+  background-color: #0056b3;
+}
+
+/* @media screen and (max-width: 1020px) {
+  .body {
+    padding: 10px;
+    width: 1020px;
+  }
+
+  .form {
+    width: 450px;
+    height: 400px;
+  }
+
+  .photo {
+    width: 400px;
+    height: 200px;
+  }
+
+  .fields {
+    margin: 5px 25px;
+    height: 200px;
+    text-align: left;
+    color: rgba(31, 65, 45, 0.5);
+  }
+
+  .fields-set {
+    margin: 5px;
+    height: 90px;
+    overflow: hidden;
+  }
+
+  .input {
+    width: 350px;
+    padding: 8px 6px 8px 15px;
+    border-radius: 20px;
+    background-color: rgb(31, 65, 45);
+    color: white;
+    border: 2px solid rgb(31, 65, 45);
+    font-size: 12px;
+  }
+
+  .footer {
+    margin: 5px;
+    height: 60px;
+    border: 2px solid black;
+  }
+
+  .submit {
+    padding: 10px 20px;
+    width: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(31, 65, 45);
+    margin-left: 180px;
+  }
+} */

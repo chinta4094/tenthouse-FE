@@ -1,0 +1,62 @@
+.dashboard-white {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  color: #2a2626;
+  background-color: white
+}
+
+.dashboard-black {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  color: #f0f2f5 ;
+  background-color: rgba(31, 35, 41, 1);
+}
+
+.header-black {
+  overflow: hidden;
+  height: 60px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #f0f2f5;
+}
+
+.header-white {
+  /* border: 2px solid black; */
+  overflow: hidden;
+  height: 60px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #2a2626;
+}
+
+
+.dash {
+  float: left;
+  border: 2px solid black;
+  width: 1420px;
+  height: 1000px;
+  margin-top: 5px;
+  overflow: hidden;
+  color: black;
+}
+
+.item-review-user {
+  max-width: 400px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.item-review-user-details {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item-review {
+  max-width: 300px;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
